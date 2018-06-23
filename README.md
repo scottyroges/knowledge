@@ -2,4 +2,4 @@
 A place to keep coding concepts, examples, solutions.
 
 ## Data Structures
-* [Maps](maps.md)
+* [Maps](data-structures/maps/maps.md)
