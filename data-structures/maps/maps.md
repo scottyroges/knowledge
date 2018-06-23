@@ -8,7 +8,7 @@ Strengths: Insertion, Search, Deletion are all very quick operations
 
 Weakness: Looking for specific values, the min or max, would take longer
 
-Complexity:
+### Complexity:
 
 | Operation | Time Complexity |
 | --- | --- |
@@ -17,6 +17,5 @@ Complexity:
 | Search by key | O(1) |
 | Search for value | O(n) |
 
-Language Specifics:
-
-[Java Implementation](/languages/java/java-maps.md)
+### Language Specifics:
+[Java Usage](/languages/java/java-maps.md)
