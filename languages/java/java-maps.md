@@ -27,11 +27,17 @@ map.get("white"); // now 20
 
 map.size(); // still 2
 
-//loop HashMap
-for (Entry<Dog, Integer> entry : hashMap.entrySet()) 
+//loop key value entry
+for(Entry<Dog, Integer> entry : map.entrySet()) 
 {
-	System.out.println(entry.getKey().toString() + " - " + 
-	entry.getValue());
+	entry.getKey();
+	entry.getValue();
+}
+
+//loop through keys
+for(String key : map.keySet())
+{
+	map.get(key);
 }
 ```
 
