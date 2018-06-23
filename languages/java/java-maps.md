@@ -11,17 +11,22 @@ Example:
 ```
 Map<String, Integer> map = new HashMap<>();
 
-hashMap.put("red", 10);
-hashMap.put("black", 15);
-hashMap.put("white", 5);
-hashMap.put("white", 20);
+map.put("red", 10);
+map.get("red"); // 10
 
-//print black
-System.out.println(hashMap.get("black");
+map.put("black", 15);
+map.get("black"); // 15
 
-//print size
-System.out.println(hashMap.size());
-		
+map.size(); // 2 (based on keys)
+
+map.put("white", 5);
+map.get("white"); // now 5
+
+map.put("white", 20);
+map.get("white"); // now 20
+
+map.size(); // still 2
+
 //loop HashMap
 for (Entry<Dog, Integer> entry : hashMap.entrySet()) 
 {
