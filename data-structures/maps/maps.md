@@ -7,6 +7,7 @@ Strengths: Insertion, Search, Deletion are all very quick operations
 Weakness: Looking for specific values, the min or max, would take longer
 
 Complexity:
+
 | Operation | Time Complexity |
 | --- | --- |
 | Insert | O(1) |
