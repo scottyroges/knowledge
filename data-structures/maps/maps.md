@@ -17,3 +17,6 @@ Complexity:
 | Search by key | O(1) |
 | Search for value | O(n) |
 
+Language Specifics:
+
+[Java Implementation](/languages/java/java-maps.md)
