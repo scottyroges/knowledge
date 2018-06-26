@@ -24,3 +24,8 @@ A place to keep coding concepts, examples, solutions.
 * Sql
 * Python
 * Javascript
+* Regex
+
+# Resources
+* [Big O](http://cooervo.github.io/Algorithms-DataStructures-BigONotation/index.html)
+* [Top 10 Algorithms](https://www.geeksforgeeks.org/top-10-algorithms-in-interview-questions/)

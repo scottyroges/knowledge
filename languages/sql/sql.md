@@ -1,0 +1,11 @@
+# SQL
+
+Cardinality
+Normalization forms
+INSERT
+DELETE
+SELECT
+INNER JOINS
+OUTER JOINS
+GROUP BY
+ORDER BY
