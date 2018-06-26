@@ -1,4 +1,4 @@
-## Maps
+# Maps
 Interface: java.util.Map
 
 Implementation:

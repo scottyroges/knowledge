@@ -1,4 +1,6 @@
-Linked Lists
+# Linked Lists
+
+The java implementation is actually a doubly linked list so that you can perform operations from both sides
 
 Implementation: java.util.LinkedList
 

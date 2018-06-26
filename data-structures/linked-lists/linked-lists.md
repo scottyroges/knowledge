@@ -5,7 +5,7 @@ Strengths: Optimizes insertion and deletion since only the pointing node has to 
 
 Weakness: Searching requires potentially looping through all the nodes 
 
-Complexity:
+### Complexity:
 
 | Operation | Time Complexity |
 | --- | --- |
@@ -13,6 +13,9 @@ Complexity:
 | Search | O(n) |
 | Deletion | O(1) |
 
-Doubly linked list has nodes that reference the previous node and the next node. It also has a reference to the head and the tail so that operations
- can take place from either end.
-Circularly linked list is simple linked list whose tail, the last node, references the head, the first node.
+### See Also:
+[Doubly Linked Lists](doubly-linked-lists.md)
+[Circulary Linked Lists](circularly-linked-lists.md)
+
+### Language Specifics:
+[Java Usage](/languages/java/java-linked-lists.md)
