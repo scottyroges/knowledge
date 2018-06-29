@@ -14,7 +14,7 @@ Weakness: Searching requires potentially looping through all the nodes
 | Deletion | O(1) |
 
 ### See Also:
-[Doubly Linked Lists](doubly-linked-lists.md)
+[Doubly Linked Lists](doubly-linked-lists.md)\
 [Circulary Linked Lists](circularly-linked-lists.md)
 
 ### Language Specifics:
