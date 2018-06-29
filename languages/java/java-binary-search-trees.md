@@ -1,6 +1,6 @@
 # Binary Search Trees
 Example:
-```
+```java
 int[] someInts = {3,2,6,7, /*...,*/ 99}; // use a TreeSet
 TreeSet<Integer> ints = new TreeSet<Integer>(); 
 for (int i : someInts) 
