@@ -28,4 +28,5 @@ A place to keep coding concepts, examples, solutions.
 
 # Resources
 * [Big O](http://cooervo.github.io/Algorithms-DataStructures-BigONotation/index.html)
-* [Top 10 Algorithms](https://www.geeksforgeeks.org/top-10-algorithms-in-interview-questions/)
+* [10 Interview Categories](https://www.geeksforgeeks.org/top-10-algorithms-in-interview-questions/)
+* [Step by Step Interview Prep](https://www.geeksforgeeks.org/a-complete-step-by-step-guide-for-placement-preparation-by-geeksforgeeks/)
