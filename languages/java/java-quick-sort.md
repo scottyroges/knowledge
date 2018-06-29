@@ -2,7 +2,7 @@
 In Java Arrays.sort uses QuickSort for primitive arrays
 
 Implementation
-```
+```java
 public class QuickSort {
 	public static void main(String[] args) {
 		int[] x = { 9, 2, 4, 7, 3, 7, 10 };

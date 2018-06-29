@@ -8,7 +8,7 @@ Implementation:
 * java.util.HashTable - synchronized, in contrast to HashMap. It has an overhead for synchronization
 
 Example:
-```
+```java
 Map<String, Integer> map = new HashMap<>();
 
 map.put("red", 10);

@@ -1,6 +1,6 @@
 # Breadth First Search
 Implementation:
-```
+```java
 public void bfs() {
 		// BFS uses Queue data structure
 		Queue queue = new LinkedList();

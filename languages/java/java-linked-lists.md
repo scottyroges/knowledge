@@ -4,7 +4,7 @@ The java implementation is actually a doubly linked list so that you can perform
 
 Implementation: java.util.LinkedList
 
-```
+```java
 /* Linked List Declaration */
 LinkedList<String> linkedlist = new LinkedList<String>();
 

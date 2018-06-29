@@ -7,7 +7,7 @@ Implementation:
 * TreeSet - Slower operations (O(logN)), but keeps values sorted
 
 Example:
-```
+```java
 // We create a new, empty set
 Set mySet1 = new HashSet();
 // We add a few elements

@@ -1,6 +1,6 @@
 # Binary Search
 Implementation:
-```
+```java
 public static Integer BinarySearchIterative(int[] array, int value){
 		int start = 0;
 		int end = array.length - 1;

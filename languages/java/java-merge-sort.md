@@ -2,7 +2,7 @@
 In Java: Arrays.sort uses MergeSort for objects
 
 Implementation
-```
+```java
 public class MergesortExample {
 	private static int []a;
 	public static void main(String[] args) {

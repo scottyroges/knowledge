@@ -2,7 +2,7 @@
 Interface: java.util.Queues
 
 Example:
-```	
+```java
 Queue myQueue = new LinkedList(); 
 
 // add elements in the queue using offer() - return true/false

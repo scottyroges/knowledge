@@ -2,7 +2,7 @@
 Interface: java.util.Stack
 
 Example:
-```
+```java
 // creating stack
 Stack st = new Stack();
    

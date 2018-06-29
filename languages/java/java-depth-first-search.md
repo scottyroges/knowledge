@@ -1,6 +1,6 @@
 # Depth First Search
 Implementation
-```
+```java
 public void dfs() {
 		// DFS uses Stack data structure
 		Stack stack = new Stack();
