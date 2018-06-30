@@ -8,7 +8,7 @@ java.util.Arrays.binarySearch(int[] a, int key);
 ### Recursive
 Things to Remember:
 * right must always be greater than or equal to left
-* difference between right and left divided by 2 is the amount to shift over from left
+* left plus right divided by 2 to find the middle
 * when left and right are equal, thats the end of the recursion since the next calls will fail the if statement
 * works for all array sizes (eg. 0, 1, 2)
 
@@ -18,9 +18,7 @@ private static int myBinarySearchRecursive(int[] array, int left, int right, int
     int index = -1;
     if(right >= left)
     {
-        int diff = right - left;
-        int shift = diff/2;
-        int middle = left + shift;
+        int middle = (left + right)/2;
         if(array[middle] == s)
         {
             index = middle;
@@ -50,9 +48,7 @@ private static int myBinarySearchIterative(int[] array, int left, int right, int
     int index = -1;
     while(right >= left)
     {
-        int diff = right - left;
-        int shift = diff/2;
-        int middle = left + shift;
+        int middle = (left + right)/2;
         if(array[middle] == s)
         {
             index = middle;

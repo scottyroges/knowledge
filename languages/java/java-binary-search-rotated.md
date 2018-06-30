@@ -10,7 +10,7 @@ private static int binarySearchRotatedArrayRecursive(int[] array, int left, int 
     int index = -1;
     if(left <= right)
     {
-        int mid = left + (right - left)/2;
+        int mid = (left + right)/2;
 
         if(array[mid] == key)
         {
@@ -49,7 +49,7 @@ private static int binarySearchRotatedIterative(int[] array, int left, int right
     int index = -1;
     while(left <= right)
     {
-        int mid = left + (right - left)/2;
+        int mid = (left + right)/2;
 
         if(array[mid] == key)
         {
