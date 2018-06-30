@@ -10,3 +10,6 @@ Interviewer will probably ask for both recursive and iterative solution.
 
 ### Language Specifics:
 [Java Usage](/languages/java/java-binary-search.md)
+
+### See Also:
+* [Binary Search Rotated Array](/languages/java/java-binary-search-rotated.md)
