@@ -2,7 +2,7 @@
 ## Example Usage:
 Arrays.sort uses MergeSort for objects that implement Comparable
 ```java
-java.util.Arrays.sort(int[] a);
+java.util.Arrays.sort(Comparable[] a);
 ```
 
 ## Custom Implementation
