@@ -5,3 +5,4 @@
 * Implement Bubble Sort
 * Implement Insertion Sort
 * Implement Merge Sort
+* Implement Quick Sort

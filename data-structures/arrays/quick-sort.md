@@ -3,7 +3,8 @@ Description: uses divide and conquer. Chooses a pivot point and partitions the c
 
 Best: O(nlogn)\
 Average: O(nlogn)\
-Worst: O(n^2)
+Worst: O(n^2)\
+Space Complexity: O(logn) - O(1) for the actual partitioning, and O(logn) for the recurision
 
 One of the more commonly used sorting algorithms.
 
