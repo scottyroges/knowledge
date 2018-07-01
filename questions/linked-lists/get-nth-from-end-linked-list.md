@@ -11,7 +11,7 @@ private static SinglyLinkedListImpl.Node getNthFromEnd(SinglyLinkedListImpl link
         curr = curr.next;
     }
 
-    int fromFront = length - n - 1;
+    int fromFront = length - n;
     curr = linkedList.head;
     SinglyLinkedListImpl.Node node = null;
     for(int i = 0; i <= fromFront; i++)

@@ -13,7 +13,7 @@ private static SinglyLinkedListImpl.Node getNth(SinglyLinkedListImpl.Node node, 
         return null;
     }
 
-    int count = 0;
+    int count = 1;
     if(count == n)
     {
         return node;
@@ -25,7 +25,7 @@ private static SinglyLinkedListImpl.Node getNthIterative(SinglyLinkedListImpl li
 {
     SinglyLinkedListImpl.Node curr = linkedList.head;
     SinglyLinkedListImpl.Node node = null;
-    for(int i = 0; i <= n; i++)
+    for(int i = 1; i <= n; i++)
     {
         if(curr == null) {
             break;

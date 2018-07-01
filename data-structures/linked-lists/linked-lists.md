@@ -27,3 +27,4 @@ Weakness: No random access. Must go through head/tail to find internal nodes. Se
 * [Get Nth Element in Linked List (Iteratvice and Recursive)](/questions/linked-lists/get-nth-linked-list.md)
 * [Get Nth Element from End of Linked List](/questions/linked-lists/get-nth-from-end-linked-list.md)
 * [Find middle of Linked List](/questions/linked-lists/middle-linked-list.md)
+* [Detect Loop in Linked List](/questions/linked-lists/loop-linked-list.md)
