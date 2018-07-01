@@ -1,9 +1,9 @@
-# Linked Lists
+# Linked Lists (Singly Linked List)
 Description: Creates a chain of nodes where each node has a reference to the next one
 
-Strengths: Optimizes insertion and deletion since only the pointing node has to be edited
+Strengths: Optimizes insertion and deletion since only the pointing node has to be edited. Size doesn't need to be known at creation. Can grow with the data set
 
-Weakness: Searching requires potentially looping through all the nodes 
+Weakness: No random access. Must go through head/tail to find internal node. Searching requires potentially looping through all the nodes 
 
 ### Complexity:
 
@@ -19,3 +19,7 @@ Weakness: Searching requires potentially looping through all the nodes
 
 ### Language Specifics:
 [Java Usage](/languages/java/java-linked-lists.md)
+[Java Implementation](/languages/java/java-singly-linked-list.md)
+
+### Practice Problems
+* [Find Length of a Linked List (Iterative and Recursive)](/questions/linked-lists/length-linked-list.md) 
