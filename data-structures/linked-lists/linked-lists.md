@@ -23,4 +23,7 @@ Weakness: No random access. Must go through head/tail to find internal nodes. Se
 
 ### Practice Problems
 * [Find Length of a Linked List (Iterative and Recursive)](/questions/linked-lists/length-linked-list.md)
-* [Search an element in a Linked List (Iterative and Recursive)](/questions/linked-lists/search-linked-list.md)
+* [Linked List Contains Element (Iterative and Recursive)](/questions/linked-lists/contains-linked-list.md)
+* [Get Nth Element in Linked List (Iteratvice and Recursive)](/questions/linked-lists/get-nth-linked-list.md)
+* [Get Nth Element from End of Linked List](/questions/linked-lists/get-nth-from-end-linked-list.md)
+* [Find middle of Linked List](/questions/linked-lists/middle-linked-list.md)

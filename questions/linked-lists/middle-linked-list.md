@@ -1,0 +1,20 @@
+# Find middle of Linked List
+Given a singly linked list, find middle of the linked list. For example, if given linked list is 1->2->3->4->5 then output should be 3.
+
+If there are even nodes, then there would be two middle nodes, we need to print second middle element. For example, if given linked list is 1->2->3->4->5->6 then output should be 4.
+
+```java
+private static SinglyLinkedListImpl.Node getMiddle(SinglyLinkedListImpl linkedList)
+{
+    SinglyLinkedListImpl.Node p1 = linkedList.head;
+    SinglyLinkedListImpl.Node p2 = linkedList.head;
+
+    while(p2 != null && p2.next != null)
+    {
+        p1 = p1.next;
+        p2 = p2.next.next;
+    }
+
+    return p1;
+}
+```

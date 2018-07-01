@@ -1,11 +1,11 @@
-# Search an element in a Linked List (Iterative and Recursive)
+# Linked List Contains Element (Iterative and Recursive)
 ```java
-private static boolean searchRecursive(SinglyLinkedListImpl linkedList, int key)
+private static boolean containsRecursive(SinglyLinkedListImpl linkedList, int key)
 {
-    return search(linkedList.head, key);
+    return contains(linkedList.head, key);
 }
 
-private static boolean search(SinglyLinkedListImpl.Node node, int key)
+private static boolean contains(SinglyLinkedListImpl.Node node, int key)
 {
     if(node == null)
     {
@@ -17,11 +17,11 @@ private static boolean search(SinglyLinkedListImpl.Node node, int key)
         {
             return true;
         }
-        return search(node.next, key);
+        return contains(node.next, key);
     }
 }
 
-private static boolean searchIterative(SinglyLinkedListImpl linkedList, int key)
+private static boolean containsIterative(SinglyLinkedListImpl linkedList, int key)
 {
     SinglyLinkedListImpl.Node curr = linkedList.head;
     while(curr != null)
